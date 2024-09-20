@@ -25,9 +25,9 @@ type Task struct {
 
 func main() {
 	// 安全询问
-	//if pass := safeQA(); pass == false {
-	//	os.Exit(0)
-	//}
+	if pass := safeQA(); pass == false {
+		os.Exit(0)
+	}
 
 	config.Init()
 	redisutil.Init()
