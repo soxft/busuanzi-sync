@@ -6,7 +6,8 @@
 ## 使用方法
 
 1. 按照提示填写 .env.exmaple 文件 并重命名为 .env
-2. 运行脚本 `go build && ./busuanzi-sync`
+2. 从 release 界面下载最新版本, 放置于 .env 同级目录
+3. 运行
 
 
 ## 工作流程
