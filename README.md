@@ -5,7 +5,7 @@
 
 ## 使用方法
 
-1. 按照提示填写 .env 文件
+1. 按照提示填写 .env.exmaple 文件 并重命名为 .env
 2. 运行脚本 `go build && ./busuanzi-sync`
 
 
