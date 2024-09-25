@@ -15,16 +15,16 @@ func Get(sitemapURL string) ([]URL, error) {
 
 	c.OnXML("//url", func(e *colly.XMLElement) {
 		loc := e.ChildText("loc")
-		priority := e.ChildText("priority")
-		changeFreq := e.ChildText("changefreq")
-		lastChange := e.ChildText("lastmod")
+		//priority := e.ChildText("priority")
+		//changeFreq := e.ChildText("changefreq")
+		//lastChange := e.ChildText("lastmod")
 
 		// 将解析的信息添加到切片中
 		urls = append(urls, URL{
-			Loc:             loc,
-			Priority:        parsePriority(priority), // 解析为 float64
-			ChangeFrequency: changeFreq,
-			LastChange:      lastChange,
+			Loc: loc,
+			// Priority:        parsePriority(priority), // 解析为 float64
+			// ChangeFrequency: changeFreq,
+			// LastChange:      lastChange,
 		})
 	})
 
