@@ -31,3 +31,7 @@
 ......
 ```
 这样才能让 busuanzi-sync 在宿主机上连接到 busuanzi 的 redis 服务。
+
+## 文章教程
+
+@zhheo 提供了一个完整的 迁移至 docker-compose 部署的方案, [这篇文章](https://blog.zhheo.com/p/a39a.html)或许可以带来一些帮助.
