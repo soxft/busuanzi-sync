@@ -115,7 +115,7 @@ func main() {
 
 func safeQA() bool {
 	reader := bufio.NewReader(os.Stdin)
-	log.Println("执行此脚本请务必提前手动备份 REDIS (dump.rdb)")
+	log.Println("执行此脚本请务必提前手动备份 Redis (dump.rdb)")
 	log.Println("继续操作将可能造成不可逆的数据丢失")
 	log.Print("我确认已经备份数据库了 (y/N): ")
 

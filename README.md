@@ -7,7 +7,7 @@
 
 1. 按照提示填写 .env.exmaple 文件 并重命名为 .env
 2. 从 release 界面下载最新版本, 放置于 .env 同级目录
-3. 运行
+3. 运行 `./busuanzi-sync` 等待同步完成
 
 
 ## 工作流程
